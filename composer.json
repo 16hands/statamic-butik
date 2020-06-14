@@ -44,12 +44,12 @@
             "src/Helper/GlobalHelper.php"
         ],
         "psr-4": {
-            "16hands\\StatamicButik\\": "src"
+            "jonassiewertsen\\StatamicButik\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "16hands\\StatamicButik\\Tests\\": "tests"
+            "jonassiewertsen\\StatamicButik\\Tests\\": "tests"
         },
         "files": [
             "tests/Utilities/functions.php"
@@ -70,10 +70,10 @@
         },
         "laravel": {
             "providers": [
-                "16hands\\StatamicButik\\StatamicButikServiceProvider"
+                "jonassiewertsen\\StatamicButik\\StatamicButikServiceProvider"
             ],
             "aliases": {
-                "StatamicButik": "16hands\\StatamicButik\\StatamicButikFacade"
+                "StatamicButik": "jonassiewertsen\\StatamicButik\\StatamicButikFacade"
             }
         }
     }
